@@ -1,0 +1,30 @@
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    padding: 20px
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form > * {
+    margin: 20px;
+    text-align: center;
+}
+
+input[type="button"]{
+ padding: 10px;   
+ font-size: 20px;   
+}
+input[type="button"]:required{
+    border: 1px solid red;
+}
+p{
+    margin-top: 20px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}

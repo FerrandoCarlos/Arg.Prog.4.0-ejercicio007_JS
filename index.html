@@ -1,0 +1,23 @@
+<!-- Ejercicio 7:
+Crear un formulario que le solicite al usuario ingresar un número. El formulario debe tener un input del tipo number y un botón que llama a una función. La función debe validar si el número es divisible por 100. Mostrar un mensaje en un párrafo indicando si es divisible o no.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <label for="numero"> Ingrese un número</label>
+        <input type="number" name="numero" id="numero" required />
+        <input type="button" value="VALIDAR" onclick="validar()" />
+        <p id="respuesta"></p>
+      </form>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
